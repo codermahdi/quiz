@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
     <!-- Quiz Page 1 start -->
-    <!-- <div class="quizBox">
+    <div class="quizBox page-1">
         <div class="img">
             <img src="/img/quiz.png" alt="">
         </div>
@@ -32,10 +33,11 @@
         <div class="quiz-button">
             <button class="btn btn-primary startButton">Start Quiz</button>
         </div>
-    </div> -->
+    </div>
     <!-- Quiz Page 1 End -->
 
-    <div class="quizBox">
+    <!-- Quiz Page 2 Start -->
+    <div class="quizBox page2">
         <div class="quiz-text rules">
             <h3>Some Rules of this Quiz</h3>
             <hr>
@@ -49,10 +51,58 @@
         </div>
 
         <div class="quiz-button">
-            <button class="btn btn-primary startButton">Exit Quiz</button>
+            <button class="btn btn-primary exittButton">Exit Quiz</button>
             <button class="btn btn-primary contButton">Continue</button>
         </div>
     </div>
+    <!-- Quiz Page 2 End -->
+
+    <!-- Quiz Page 3 Start -->
+
+    <div class="quizBox page3">
+        <div class="quizhead">
+            <div class="left-side">
+                <h3>Start Exam</h3>
+            </div>
+            <div class="right-side">
+                <span class="time-left">Time Left</span>
+                <span class="seconds">15</span>
+            </div>
+            <div class="timeline">
+                <hr>
+            </div>
+        </div>
+        <hr>
+        <div class="quiz-text rules quiestion">
+            <h3>What does HTML land for?</h3>
+
+            <div class="option">
+                <div class="myOption">
+                    <span>1. Hyper Text Preprocessor</span>
+                    <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                </div>
+                <div class="myOption">
+                    <span>2. Hyper Text Preprocessor</span>
+                    <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                </div>
+                <div class="myOption">
+                    <span>3. Hyper Text Preprocessor</span>
+                    <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                </div>
+                <div class="myOption">
+                    <span>4. Hyper Text Preprocessor</span>
+                    <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-button">
+            <button class="btn btn-primary exitQuiz">Exit Quiz</button>
+            <button class="btn btn-primary contButton">Continue</button>
+        </div>
+    </div>
+    <!-- Quiz Page 3 End -->
+
+    <script src="/js/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
