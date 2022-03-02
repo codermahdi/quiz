@@ -16,4 +16,14 @@ exittButton.onclick = () => {
 contButton.onclick = () => {
     page2.classList.remove("activeInfo");
     page3.classList.add("activeQuiz");
+    showQuestions(1);
+}
+
+function showQuestions(index) {
+    const queText = document.querySelector('.quiestion');
+    const optionList = document.querySelector('.option');
+    let optionTag = `<div class="myOption"> ${questions[index].option}.} </div>`;
+    let queTag = `<h3>  ${questions[index].numb}. ${questions[index].question} </h3>`;
+    queText.innerHTML = queTag;
+    optionList.innerHTML = optionTag;
 }
